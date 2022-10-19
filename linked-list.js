@@ -180,17 +180,3 @@ export class LinkedList {
     }
   }
 }
-
-const linkedList = new LinkedList();
-
-linkedList.append("first");
-
-linkedList.append("second");
-
-linkedList.prepend("one");
-
-linkedList.inserAt("third", 2);
-
-linkedList.removeAt(2);
-
-console.log(linkedList.toString());
